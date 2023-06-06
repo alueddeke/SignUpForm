@@ -5,10 +5,53 @@
   font-family: "Raleway", sans-serif;
 }
 
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main,
+#logo {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .picture {
+  position: relative;
+  width: 40vw;
+  min-width: 345px;
+  height: 100vh;
   background-image: url(./ryan-kim-ADvoB9pDkow-unsplash.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#logo {
+  height: auto;
+  background-color: ;
+  position: relative;
+  top: 20vh;
+  gap: 1vw;
+  padding: 15px 0;
+
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+#odin {
+  height: 10vh;
+}
+
+.picture p {
+  font-size: 12px;
+  position: absolute;
+  bottom: 15px;
+  right: 5px;
 }
